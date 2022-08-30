@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   res.send('Hello World from Express')
 })
 
-app.listen(3001)
+app.listen(80)
 
 
