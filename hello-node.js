@@ -1,12 +1,13 @@
 const express = require('express')
 const app = express()
 
-console.log("hello from node");
+console.log("Connected..");
 
 app.get('/', function (req, res) {
   res.send('Hello World from Express')
 })
 
-app.listen(80)
+app.listen(PORT, () => console.log('Server is listening on port ${PORT}... '))
+
 
 
